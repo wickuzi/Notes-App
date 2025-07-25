@@ -26,7 +26,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "https://your-frontend-domain.vercel.app",  # Update after deploying frontend
+    "https://notes-app-flax-nine.vercel.app/",  # Update after deploying frontend
     "http://localhost:5173",
 ]
 CORS_ALLOW_CREDENTIALS = True
